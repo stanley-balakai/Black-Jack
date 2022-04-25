@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLACKJACK</title>
+    <link href="blackjack.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@350&display=swap" rel="stylesheet">
+    <script src="blackjack.js" defer></script>
+</head>
+<body class="main">
+    <div id="message"></div>
+    <div id="output"> 
+        Dealer Hand : 
+        <span id="dealerpoints">    </span>
+        <div id="dealercard"></div>
+        Player Hand :
+        <span id="playerpoints"></span>
+        <div id="playercard"></div>
+    <div class="playerbuttons">
+        <button id="hit" type="button" onclick="hit()">Hit</button>
+        <button id="stand" type="button" onclick ="endgame()">Stand</button>
+        <button id="reset" type ="button" onclick = "StartGame()">Reset</button>
+    </div>
+</div>
+</body>
+</html>
