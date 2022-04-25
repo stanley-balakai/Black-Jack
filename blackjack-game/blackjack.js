@@ -1,4 +1,4 @@
-//define the variables and intialize game
+
 const SUITS = ['spades', 'hearts', 'clubs', 'diams' ]
 const VALUES = ['A','2','3','4','5','6','7','8','9','10','J','Q','K']
 const CARD_VALUE_MAP = {
